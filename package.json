@@ -1,6 +1,7 @@
 {
-  "name": "fristys-toasty",
-  "version": "0.0.0",
+  "name": "@fristys/toasty",
+  "description": "Angular Toasty component shows growl-style alerts and messages for your web app",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +10,21 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fristys/ng2-toasty.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "toasty",
+    "growl"
+  ],
+  "author": "Momchil Georgiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fristys/ng2-toasty/issues"
+  },
   "dependencies": {
     "@angular/animations": "~7.0.0",
     "@angular/common": "~7.0.0",
