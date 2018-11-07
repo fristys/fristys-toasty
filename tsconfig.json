@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "toasty": [
+        "dist/toasty"
+      ],
+      "toasty/*": [
+        "dist/toasty/*"
+      ]
+    }
   }
 }

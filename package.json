@@ -1,14 +1,16 @@
 {
   "name": "@fristys/toasty",
   "description": "Angular Toasty component shows growl-style alerts and messages for your web app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "npm_pack": "cd dist/toasty && npm pack",
+    "package": "npm run build && npm run npm_pack"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "growl"
   ],
   "author": "Momchil Georgiev",
+  "homepage" :"https://fristys.me",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fristys/ng2-toasty/issues"
@@ -36,11 +39,13 @@
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
     "core-js": "^2.5.4",
+    "ng-packagr": "^4.4.0",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.10.0",
+    "@angular-devkit/build-ng-packagr": "~0.10.0",
     "@angular/cli": "~7.0.4",
     "@angular/compiler-cli": "~7.0.0",
     "@angular/language-service": "~7.0.0",
@@ -55,8 +60,11 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^4.2.0",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
+    "tsickle": ">=0.29.0",
+    "tslib": "^1.9.0",
     "tslint": "~5.11.0",
     "typescript": "~3.1.1"
   }
