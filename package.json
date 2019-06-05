@@ -1,7 +1,7 @@
 {
   "name": "@fristys/toasty",
   "description": "Angular Toasty component shows growl-style alerts and messages for your web app",
-  "version": "0.0.3",
+  "version": "6.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -34,7 +34,6 @@
     "@angular/compiler": "~8.0.0",
     "@angular/core": "~8.0.0",
     "@angular/forms": "~8.0.0",
-    "@angular/http": "~7.2.15",
     "@angular/platform-browser": "~8.0.0",
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/router": "~8.0.0",
